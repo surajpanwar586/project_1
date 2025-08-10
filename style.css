@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #EAEDED;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Needed for hamburger menu positioning */
+}
+
+.header-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-search {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.header-search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.header-search .search-button {
+    background-color: #FEBD69;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link span {
+    font-size: 0.8rem;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+}
+
+.cart-count {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #F08804;
+    margin-right: 5px;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none; /* Hidden by default on desktop */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* Secondary Navigation */
+.secondary-nav {
+    background-color: #232F3E;
+    color: white;
+    padding: 5px 20px;
+}
+
+.secondary-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.secondary-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    display: block;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 1.5rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1rem;
+    text-align: left;
+    margin: 10px 0;
+    line-height: 1.4;
+    flex-grow: 1; /* Allows title to take up available space */
+}
+
+.product-rating {
+    text-align: left;
+    color: #007185;
+    font-size: 0.9rem;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #B12704;
+    text-align: left;
+}
+
+.price .mrp {
+    font-size: 0.8rem;
+    color: #555;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-card button {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #232F3E;
+    color: #DDD;
+    padding: 40px 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-column {
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li a {
+    color: #DDD;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+.footer-bottom {
+    background-color: #131A22;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .main-header {
+        flex-wrap: wrap;
+    }
+
+    .header-search {
+        order: 3; /* Move search bar to the bottom */
+        width: 100%;
+        margin: 10px 0 0;
+    }
+    
+    .header-nav {
+        display: none; /* Hide desktop nav links */
+    }
+
+    .hamburger-menu {
+        display: flex; /* Show hamburger menu */
+    }
+
+    .secondary-nav {
+        display: none; /* Hide secondary nav by default on mobile */
+    }
+    
+    .secondary-nav.mobile-nav-active {
+        display: block; /* Show when active */
+    }
+    
+    .secondary-nav.mobile-nav-active ul {
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+    }
+}
