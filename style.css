@@ -12,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative; /* Needed for hamburger menu positioning */
+    position: relative;
 }
 
 .header-logo a {
@@ -74,7 +74,7 @@ body {
 
 /* Hamburger Menu */
 .hamburger-menu {
-    display: none; /* Hidden by default on desktop */
+    display: none;
     flex-direction: column;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ main h1 {
     text-align: left;
     margin: 10px 0;
     line-height: 1.4;
-    flex-grow: 1; /* Allows title to take up available space */
+    flex-grow: 1;
 }
 
 .product-rating {
@@ -159,7 +159,7 @@ main h1 {
 .product-card .price {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #B12704;
+    color: #B12000;
     text-align: left;
 }
 
@@ -180,6 +180,23 @@ main h1 {
     margin-top: 10px;
 }
 
+/* Product Card Link Styling */
+.product-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product-card-link, .product-card-link:visited {
+    color: #0F1111;
+    text-decoration: none;
+}
+
+.product-card-link:hover {
+    color: #B12704;
+    text-decoration: underline;
+}
+
 /* Footer Styles */
 footer {
     background-color: #232F3E;
@@ -193,10 +210,6 @@ footer {
     max-width: 1000px;
     margin: 0 auto;
     text-align: left;
-}
-
-.footer-column {
-    margin: 0 20px;
 }
 
 .footer-column h3 {
@@ -223,6 +236,48 @@ footer {
     font-size: 0.8rem;
 }
 
+/* --- Product Details Page Styles --- */
+.product-details {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.product-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 2;
+}
+
+.product-info h1 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.product-info .price {
+    font-size: 1.5rem;
+    color: #B12704;
+}
+
+.product-info button {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
@@ -231,29 +286,29 @@ footer {
     }
 
     .header-search {
-        order: 3; /* Move search bar to the bottom */
+        order: 3;
         width: 100%;
         margin: 10px 0 0;
     }
     
     .header-nav {
-        display: none; /* Hide desktop nav links */
+        display: none;
     }
 
     .hamburger-menu {
-        display: flex; /* Show hamburger menu */
+        display: flex;
     }
 
     .secondary-nav {
-        display: none; /* Hide secondary nav by default on mobile */
+        display: none;
     }
     
     .secondary-nav.mobile-nav-active {
-        display: block; /* Show when active */
+        display: block;
     }
     
     .secondary-nav.mobile-nav-active ul {
-        flex-direction: column; /* Stack links vertically */
+        flex-direction: column;
     }
 
     .product-grid {
@@ -264,4 +319,74 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    
+    .product-details {
+        flex-direction: column;
+    }
+
+    /* --- Shopping Cart Page Styles --- */
+.cart-page {
+    display: flex;
+    gap: 20px;
+}
+
+.cart-items-list {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.cart-item-image img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.cart-item-details h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.cart-item-details .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #B12704;
+    margin: 10px 0;
+}
+
+.cart-item-actions {
+    margin-top: 10px;
+}
+
+.cart-item-actions .quantity {
+    width: 50px;
+    padding: 5px;
+}
+
+.cart-item-actions .remove-button {
+    background: none;
+    border: none;
+    color: #007185;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.cart-summary {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    height: fit-content; /* Make the box only as tall as its content */
+}
+
+.cart-subtotal {
+    font-size: 1.2rem;
+}
 }
