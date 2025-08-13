@@ -3,41 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazone Clone</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="templates.js"></script> </head>
-
+    <title>Project_1</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">    
 </head>
 <body>
 
     <header class="main-header"></header>
 
-    <nav class="secondary-nav">
-        <ul>
-            <li><a href="#">All</a></li>
-            <li><a href="#">Best Sellers</a></li>
-            <li><a href="#">Mobiles</a></li>
-            <li><a href="#">Today's Deals</a></li>
-            <li><a href="#">Customer Service</a></li>
-            <li><a href="#">Electronics</a></li>
-            <li><a href="#">Prime</a></li>
-        </ul>
-    </nav>
+    <nav class="secondary-nav"></nav> 
 
     <main>
-        <h1>Results</h1>
+        <div class="results-header">
+            <h1>Results</h1>
+            <div class="sort-container">
+                <label for="sort-select">Sort by:</label>
+                <select id="sort-select" class="sort-dropdown">
+                    <option value="featured">Featured</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating-desc">Avg. Customer Review</option>
+                </select>
+            </div>
+        </div>
         <p>Check each product page for other buying options. Price and other details may vary based on product size and colour.</p>
         
-        <section class="product-grid">
-        </section>
-
+        <section class="product-grid"></section>
     </main>
 
     <footer></footer>
 
-    <script src="templates.js"></script>
-    <script src="script.js"></script>
-    <script src="cart.js"></script>
+    <script src="js/templates.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
 
 </body>
 </html>

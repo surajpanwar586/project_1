@@ -1,0 +1,192 @@
+/* css/components.css */
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+main h1 {
+    font-size: 1.5rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1rem;
+    text-align: left;
+    margin: 10px 0;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.product-rating {
+    text-align: left;
+    color: #007185;
+    font-size: 0.9rem;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #B12000;
+    text-align: left;
+}
+
+.price .mrp {
+    font-size: 0.8rem;
+    color: #555;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-card button {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.product-card button:hover {
+    background-color: #F7CA00;
+}
+
+/* Product Card Link Styling */
+.product-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.product-card-link, .product-card-link:visited {
+    color: #0F1111;
+    text-decoration: none;
+}
+
+.product-card-link:hover h2 {
+    color: #B12704;
+    text-decoration: underline;
+}
+
+/* Login/Signup Form Styles */
+.form-logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.form-logo-container a {
+    color: #111;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 26px;
+    width: 350px;
+    background-color: white;
+}
+
+.form-card h1 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #949494;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form-button {
+    background-color: #FFD814;
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+}
+
+.form-footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* --- Sorting Dropdown Styles --- */
+.results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort-dropdown {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f0f2f2;
+}

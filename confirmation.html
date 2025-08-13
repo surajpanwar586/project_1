@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Amazone Cart</title>
+    <title>Order Confirmation</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/pages.css">
@@ -11,18 +11,12 @@
 
     <header class="main-header"></header>
 
-    <main>
-        <div class="cart-page">
-            <div class="cart-items-list">
-                <h1>Shopping Cart</h1>
-                <hr>
-                <div id="cart-items-container">
-                    <p>Loading cart...</p>
-                </div>
-            </div>
-            <div class="cart-summary">
-                <div id="cart-subtotal-container"></div>
-            </div>
+    <main class="confirmation-container">
+        <div class="confirmation-card">
+            <h1>Thank You for Your Order!</h1>
+            <p>Your order has been placed successfully.</p>
+            <p>We've sent a confirmation to your email address.</p>
+            <a href="index.html" class="form-button">Continue Shopping</a>
         </div>
     </main>
 
@@ -30,6 +24,6 @@
 
     <script src="js/templates.js"></script>
     <script src="js/cart.js"></script>
-    
+
 </body>
 </html>

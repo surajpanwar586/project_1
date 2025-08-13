@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Details</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="templates.js"></script> </head>
-
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">    
 </head>
 <body>
 
@@ -14,8 +15,14 @@
 
     <main>
         <section id="product-details-container" class="product-details">
-            <div class="product-image">
-                <img src="https://via.placeholder.com/400" alt="Product Image">
+            <div class="product-image-carousel">
+                <div class="main-image-container">
+                    <img id="main-product-image" src="https://via.placeholder.com/400" alt="Product Image">
+                    <button class="carousel-btn prev-btn">❮</button>
+                    <button class="carousel-btn next-btn">❯</button>
+                </div>
+                <div class="thumbnail-container" id="thumbnail-list">
+                    </div>
             </div>
             <div class="product-info">
                 <h1 class="product-title">Product Title Loading...</h1>
@@ -27,19 +34,16 @@
                 <p class="product-description">
                     Product description will load here. This section provides more detail about the item, its features, and specifications.
                 </p>
-                <button>Add to Cart</button>
+                <button class="form-button">Add to Cart</button>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer></footer>
 
-    </footer>
-    <script src="templates.js"></script>
-    <script src="product.js"></script>
-    <script src="cart.js"></script>
+    <script src="js/templates.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/cart.js"></script>
     
-
-
-    </body>
+</body>
 </html>

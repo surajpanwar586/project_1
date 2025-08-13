@@ -1,182 +1,282 @@
 [
     {
         "id": 1,
-        "image": "https://m.media-amazon.com/images/I/51cKQW7WMeL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/51cKQW7WMeL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=Side+View",
+            "https://placehold.co/400x400/green/white?text=In+Use"
+        ],
         "name": "Xmart India Multipurpose 6-in-1 Masala Box",
         "price": 170.1,
         "rating": 5,
         "reviews": 159,
-        "description": "A stylish and practical solution for storing spices."
+        "description": "A stylish and practical solution for storing spices.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 2,
-        "image": "https://m.media-amazon.com/images/I/71DTJ0ifKGL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/71DTJ0ifKGL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=Close+Up",
+            "https://placehold.co/400x400/red/white?text=Folded"
+        ],
         "name": "Allextreme 425 GSM Microfiber Cloth Reusable",
         "price": 329.0,
         "rating": 5,
         "reviews": 149,
-        "description": "High-quality microfiber towels for cleaning."
+        "description": "High-quality microfiber towels for cleaning.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 3,
-        "image": "https://m.media-amazon.com/images/I/516wVCNVMhL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/516wVCNVMhL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/purple/white?text=Angled+View",
+            "https://placehold.co/400x400/teal/white?text=Lifestyle"
+        ],
         "name": "OPTIFINE Modern Hexagonal Faux Marble End Table",
         "price": 299.0,
         "rating": 5,
         "reviews": 147,
-        "description": "A modern and stylish accent table."
+        "description": "A modern and stylish accent table.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 4,
-        "image": "https://m.media-amazon.com/images/I/61L2lXI35pL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/61L2lXI35pL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=Open",
+            "https://placehold.co/400x400/green/white?text=With+Food"
+        ],
         "name": "Xmart India Bite Buddy Lunch Box",
         "price": 199.0,
         "rating": 5,
         "reviews": 140,
-        "description": "An airtight and leak-proof tiffin box."
+        "description": "An airtight and leak-proof tiffin box.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 5,
-        "image": "https://m.media-amazon.com/images/I/81OdwcKIvdL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/81OdwcKIvdL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=Folded",
+            "https://placehold.co/400x400/red/white?text=In+Closet"
+        ],
         "name": "TEKCOOL Wardrobe Organizer For Storage Box",
         "price": 379.0,
         "rating": 5,
         "reviews": 136,
-        "description": "A foldable storage solution for clothes."
+        "description": "A foldable storage solution for clothes.",
+        "category": "Fashion"
     },
     {
         "id": 6,
-        "image": "https://m.media-amazon.com/images/I/61oiJdVVJ9L._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/61oiJdVVJ9L._AC_UL320_.jpg",
+            "https://placehold.co/400x400/purple/white?text=On+Bottle",
+            "https://placehold.co/400x400/teal/white?text=Charging"
+        ],
         "name": "TEKCOOL Automatic Water Dispenser Pump",
         "price": 329.0,
         "rating": 5,
         "reviews": 132,
-        "description": "A portable and rechargeable water pump."
+        "description": "A portable and rechargeable water pump.",
+        "category": "Electronics"
     },
     {
         "id": 7,
-        "image": "https://m.media-amazon.com/images/I/61L8nYmwekL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/61L8nYmwekL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=Full+Length",
+            "https://placehold.co/400x400/green/white?text=Brush+Head"
+        ],
         "name": "TEKCOOL Premium Soft Silicone Back Scrubber",
         "price": 279.0,
         "rating": 5,
         "reviews": 127,
-        "description": "A long-handled, soft silicone brush for deep cleaning."
+        "description": "A long-handled, soft silicone brush for deep cleaning.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 8,
-        "image": "https://m.media-amazon.com/images/I/718gfULrmlL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/718gfULrmlL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=In+Hand",
+            "https://placehold.co/400x400/red/white?text=Pack+of+6"
+        ],
         "name": "PROXISM Non-Scratch Dish Wash Cloth (Pack of 6)",
         "price": 139.0,
         "rating": 5,
         "reviews": 124,
-        "description": "Multipurpose wire dishwashing rags."
+        "description": "Multipurpose wire dishwashing rags.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 9,
-        "image": "https://m.media-amazon.com/images/I/71kdKKR5p-L._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/71kdKKR5p-L._AC_UL320_.jpg",
+            "https://placehold.co/400x400/purple/white?text=With+Vegetables",
+            "https://placehold.co/400x400/teal/white?text=Different+Sizes"
+        ],
         "name": "COSMIIC GREENS Reusable Vegetable Fridge Bags",
         "price": 247.0,
         "rating": 4,
         "reviews": 191,
-        "description": "Lightweight, washable storage for fruits and vegetables."
+        "description": "Lightweight, washable storage for fruits and vegetables.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 10,
-        "image": "https://m.media-amazon.com/images/I/91TMD0-NUWL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/91TMD0-NUWL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=Stackable",
+            "https://placehold.co/400x400/green/white?text=Set+of+6"
+        ],
         "name": "VOLTURI Air Tight Kitchen Containers (Set of 6)",
         "price": 499.0,
         "rating": 4,
         "reviews": 1535,
-        "description": "Kitchen storage boxes for pulses, cereals, and grains."
+        "description": "Kitchen storage boxes for pulses, cereals, and grains.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 11,
-        "image": "https://m.media-amazon.com/images/I/81Me0tIAdQL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/81Me0tIAdQL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=Bright+Mode",
+            "https://placehold.co/400x400/red/white?text=Warm+Mode"
+        ],
         "name": "Right side Table Lamp for Study Room",
         "price": 469.0,
         "rating": 5,
         "reviews": 70,
-        "description": "A rechargeable LED light with a large 1200 mAh battery."
+        "description": "A rechargeable LED light with a large 1200 mAh battery.",
+        "category": "Electronics"
     },
     {
         "id": 12,
-        "image": "https://m.media-amazon.com/images/I/615Y9oWycUL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/615Y9oWycUL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/purple/white?text=In+Use",
+            "https://placehold.co/400x400/teal/white?text=Waterproof"
+        ],
         "name": "GDNK Reusable Rubber Latex Hand Gloves",
         "price": 199.0,
         "rating": 5,
         "reviews": 65,
-        "description": "Long-sleeved gloves for kitchen dish-washing and cleaning."
+        "description": "Long-sleeved gloves for kitchen dish-washing and cleaning.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 13,
-        "image": "https://m.media-amazon.com/images/I/61LTzGtmRIL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/61LTzGtmRIL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=On+Glass",
+            "https://placehold.co/400x400/green/white?text=On+Counter"
+        ],
         "name": "Solitude Multi-Purpose Kitchen & Glass Wiper",
         "price": 199.0,
         "rating": 4,
         "reviews": 131,
-        "description": "All-purpose cleaning for windows, car windshields, and tables."
+        "description": "All-purpose cleaning for windows, car windshields, and tables.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 14,
-        "image": "https://m.media-amazon.com/images/I/71UQf57btqL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/71UQf57btqL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=In+Bathroom",
+            "https://placehold.co/400x400/red/white?text=In+Kitchen"
+        ],
         "name": "Homeor Multipurpose Self Adhesive Corner Shelf",
         "price": 249.0,
         "rating": 5,
         "reviews": 73,
-        "description": "Wall-mounted rack shelf for bathroom or kitchen organization."
+        "description": "Wall-mounted rack shelf for bathroom or kitchen organization.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 15,
-        "image": "https://m.media-amazon.com/images/I/81h7uYSkh8L._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/81h7uYSkh8L._AC_UL320_.jpg",
+            "https://placehold.co/400x400/purple/white?text=With+Towels",
+            "https://placehold.co/400x400/teal/white?text=Empty"
+        ],
         "name": "Homeor Self Adhesive Bathroom Shelf with 4 Hooks",
         "price": 249.0,
         "rating": 5,
         "reviews": 72,
-        "description": "Wall-mounted shelf organizer for saving space."
+        "description": "Wall-mounted shelf organizer for saving space.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 16,
-        "image": "https://m.media-amazon.com/images/I/61XzD5QkZEL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/61XzD5QkZEL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=With+Pump",
+            "https://placehold.co/400x400/green/white?text=In+Suitcase"
+        ],
         "name": "CRAE Vacuum Storage Bags for Travel",
         "price": 379.0,
         "rating": 5,
         "reviews": 84,
-        "description": "Airtight, reusable ziplock bags with a hand pump."
+        "description": "Airtight, reusable ziplock bags with a hand pump.",
+        "category": "Fashion"
     },
     {
         "id": 17,
-        "image": "https://m.media-amazon.com/images/I/617D0Vo8eGL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/617D0Vo8eGL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=Open+Case",
+            "https://placehold.co/400x400/red/white?text=With+Brush"
+        ],
         "name": "Leawall 2-in-1 Travel Soap Case with Brush",
         "price": 179.0,
         "rating": 5,
         "reviews": 82,
-        "description": "Transparent, leakproof, and waterproof soap holder."
+        "description": "Transparent, leakproof, and waterproof soap holder.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 18,
-        "image": "https://m.media-amazon.com/images/I/51Wk5NonE1L._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/51Wk5NonE1L._AC_UL320_.jpg",
+            "https://placehold.co/400x400/purple/white?text=Pack+of+6",
+            "https://placehold.co/400x400/teal/white?text=Lit+Up"
+        ],
         "name": "TEKCOOL LED Candles for Home Decoration (6 Pcs)",
         "price": 249.0,
         "rating": 5,
         "reviews": 120,
-        "description": "Electric flameless and smokeless LED diya lights."
+        "description": "Electric flameless and smokeless LED diya lights.",
+        "category": "Electronics"
     },
     {
         "id": 19,
-        "image": "https://m.media-amazon.com/images/I/61DDiKnMmNL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/61DDiKnMmNL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/orange/white?text=Absorbent",
+            "https://placehold.co/400x400/green/white?text=Non-Slip+Back"
+        ],
         "name": "Desi BAE Kitchen Utensil Dish Drying Mat",
         "price": 139.0,
         "rating": 5,
         "reviews": 65,
-        "description": "Quick-dry, water-absorbent placemat with non-slip rubber back."
+        "description": "Quick-dry, water-absorbent placemat with non-slip rubber back.",
+        "category": "Home & Kitchen"
     },
     {
         "id": 20,
-        "image": "https://m.media-amazon.com/images/I/51jizOO2ksL._AC_UL320_.jpg",
+        "images": [
+            "https://m.media-amazon.com/images/I/51jizOO2ksL._AC_UL320_.jpg",
+            "https://placehold.co/400x400/blue/white?text=Squishy+Sample",
+            "https://placehold.co/400x400/red/white?text=SmartGRID"
+        ],
         "name": "The Sleep Company Luxe Recliner Squishy Sample",
         "price": 200.0,
         "rating": 5,
         "reviews": 82,
-        "description": "A sample of the SmartGRID recliner technology."
+        "description": "A sample of the SmartGRID recliner technology.",
+        "category": "Home & Kitchen"
     }
 ]

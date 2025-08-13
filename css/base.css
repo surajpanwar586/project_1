@@ -1,0 +1,149 @@
+/* css/base.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #EAEDED;
+}
+
+/* --- Header Styles --- */
+.main-header {
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-search {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.header-search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.header-search .search-button {
+    background-color: #FEBD69;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link span {
+    font-size: 0.8rem;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+}
+
+.cart-count {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #F08804;
+    margin-right: 5px;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* Secondary Navigation */
+.secondary-nav {
+    background-color: #232F3E;
+    color: white;
+    padding: 5px 20px;
+}
+
+.secondary-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.secondary-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    display: block;
+}
+
+/* --- Footer Styles --- */
+footer {
+    background-color: #232F3E;
+    color: #DDD;
+    padding: 40px 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.footer-column h3 {
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li a {
+    color: #DDD;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+.footer-bottom {
+    background-color: #131A22;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}

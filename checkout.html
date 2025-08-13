@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css"><body>
+
+    <header class="main-header"></header>
+
+    <main class="checkout-container">
+        <h1>Checkout</h1>
+        <div class="checkout-layout">
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div id="summary-items"></div>
+                <div id="summary-total"></div>
+            </div>
+
+            <div class="payment-methods">
+                <h2>Payment Method</h2>
+                <div class="payment-option">
+                    <input type="radio" id="card" name="payment" value="card" checked>
+                    <label for="card">Credit or Debit Card</label>
+                    <div class="payment-details" id="card-details">
+                        <input type="text" placeholder="Card Number">
+                        <input type="text" placeholder="Name on Card">
+                        <div class="card-expiry-cvv">
+                            <input type="text" placeholder="MM/YY">
+                            <input type="text" placeholder="CVV">
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-option">
+                    <input type="radio" id="upi" name="payment" value="upi">
+                    <label for="upi">UPI / Razorpay / PhonePe</label>
+                    <div class="payment-details" id="upi-details" style="display:none;">
+                        <input type="text" placeholder="Enter UPI ID">
+                    </div>
+                </div>
+                <button id="pay-button" class="form-button">Place Your Order and Pay</button>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/templates.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/checkout.js"></script>
+    
+    </body>
+</html>
