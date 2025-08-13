@@ -1,2 +1,2 @@
 # project_1
-it is first application , which will from a new e commercial website for 
+this is a project where we create a commercial full stack website like amazon with using ai  
